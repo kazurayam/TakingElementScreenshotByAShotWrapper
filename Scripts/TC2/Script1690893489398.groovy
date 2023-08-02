@@ -17,7 +17,7 @@ float dpr = AShotWrapper.DevicePixelRatioResolver.resolveDPR(driver)
 AShotWrapper.Options options = new AShotWrapper.Options.Builder().devicePixelRatio(dpr).build()
 File file = new File("./element_screenshot.png")
 
-BufferedImage image = AShotWrapper.saveElementImage(driver, By.xpath(xpath), options, file)
+AShotWrapper.saveElementImage(driver, By.xpath(xpath), options, file)
 
 driver.quit()
 
