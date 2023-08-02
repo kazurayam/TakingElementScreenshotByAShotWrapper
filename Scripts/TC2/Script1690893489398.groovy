@@ -1,7 +1,5 @@
 import java.awt.image.BufferedImage
 
-import javax.imageio.ImageIO
-
 import org.openqa.selenium.By
 import org.openqa.selenium.WebDriver
 
